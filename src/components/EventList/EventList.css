@@ -1,0 +1,55 @@
+.list_heading, .list{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1024px;
+    padding: 8px;
+    margin: 0 auto;
+}
+
+.list_heading span, .list span{
+  color: white;
+  width: 24%;
+  word-break: break-all;
+}
+
+.list_heading span:nth-of-type(1), .list_heading span:nth-of-type(4), .list_heading span:nth-of-type(5), .list span:nth-of-type(1), .list span:nth-of-type(4), .list span:nth-of-type(5){
+    width: 12%;
+}
+
+.list_heading{
+    background: blueviolet;
+    color: white;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.list {
+    background-color: #fe3e3e;
+    margin: 1px auto;
+}
+
+.list:last-child{
+    border-radius: 0px 0px 8px 8px;
+}
+
+.sort_event_button{
+    text-align: center;
+}
+
+.sort_event_button button{
+    border: none;
+    padding: 8px;
+    background-color: royalblue;
+    color: white;
+    margin: 8px;
+    min-width: 60px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.no_event_message{
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}

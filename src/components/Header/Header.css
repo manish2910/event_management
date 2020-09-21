@@ -1,0 +1,14 @@
+nav{
+    padding: 15px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    color: white;
+    padding: 0px 15px 3px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 15px;
+}
